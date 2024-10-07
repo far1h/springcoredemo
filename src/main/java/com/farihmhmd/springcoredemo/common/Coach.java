@@ -1,4 +1,4 @@
-package com.farihmhmd.springcoredemo;
+package com.farihmhmd.springcoredemo.common;
 
 public interface Coach {
 
