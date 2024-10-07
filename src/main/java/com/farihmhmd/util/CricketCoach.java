@@ -1,4 +1,4 @@
-package com.farihmhmd.springcoredemo.common;
+package com.farihmhmd.util;
 
 import org.springframework.stereotype.Component;
 
