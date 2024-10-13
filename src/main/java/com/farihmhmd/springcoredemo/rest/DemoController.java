@@ -10,10 +10,9 @@ public class DemoController {
     // define a private field for the dependency
     private Coach myCoach;
 
-    // define a constructor for dependency injection
     @Autowired
-    public DemoController(Coach myCoach) {
-        this.myCoach = myCoach;
+    public void setMyCoach(Coach theCoach){
+        myCoach = theCoach;
     }
 
     @GetMapping("/dailyworkout")
